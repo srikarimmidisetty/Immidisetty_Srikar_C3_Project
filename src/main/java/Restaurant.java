@@ -17,7 +17,7 @@ public class Restaurant {
         this.openingTime = openingTime;
         this.closingTime = closingTime;
     }
-
+/*
     public boolean isRestaurantOpen() {
         LocalTime currentTime = getCurrentTime();
         return currentTime.isAfter(openingTime) && currentTime.isBefore(closingTime);
@@ -28,7 +28,7 @@ public class Restaurant {
     public List<Item> getMenu() {
         return menu;
     }
-
+*/
     private Item findItemByName(String itemName){
         for(Item item: menu) {
             if(item.getName().equals(itemName))
@@ -41,33 +41,33 @@ public class Restaurant {
         Item newItem = new Item(name,price);
         menu.add(newItem);
     }
-    
-    public void removeFromMenu(String itemName) throws itemNotFoundException {
+    /*
+        public void removeFromMenu(String itemName) throws itemNotFoundException {
 
-        Item itemToBeRemoved = findItemByName(itemName);
-        if (itemToBeRemoved == null)
-            throw new itemNotFoundException(itemName);
+            Item itemToBeRemoved = findItemByName(itemName);
+            if (itemToBeRemoved == null)
+                throw new itemNotFoundException(itemName);
 
-        menu.remove(itemToBeRemoved);
-    }
-
-    public int getSelectedItemPrice() {
-        int amount = 0;
-        for(Item item: menu) {
-            amount += item.getPrice();
+            menu.remove(itemToBeRemoved);
         }
-        return amount;
-    }
 
-    public void displayDetails(){
-        System.out.println("Restaurant:"+ name + "\n"
-                +"Location:"+ location + "\n"
-                +"Opening time:"+ openingTime +"\n"
-                +"Closing time:"+ closingTime +"\n"
-                +"Menu:"+"\n"+getMenu());
+        public int getSelectedItemPrice() {
+            int amount = 0;
+            for(Item item: menu) {
+                amount += item.getPrice();
+            }
+            return amount;
+        }
 
-    }
+        public void displayDetails(){
+            System.out.println("Restaurant:"+ name + "\n"
+                    +"Location:"+ location + "\n"
+                    +"Opening time:"+ openingTime +"\n"
+                    +"Closing time:"+ closingTime +"\n"
+                    +"Menu:"+"\n"+getMenu());
 
+        }
+    */
     public String getName() {
         return name;
     }
