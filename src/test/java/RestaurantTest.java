@@ -14,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class RestaurantTest {
     Restaurant restaurant;
     //REFACTOR CODE
+/*
    @BeforeEach
     public void addRestaurantDetails() {
         LocalTime openingTime = LocalTime.parse("10:30:00");
@@ -64,7 +65,7 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+*/
     //Failing Test case for orderValue method//
     @Test
     public void select_item_from_list_should_return_order_value(){

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Immidisetty_Srikar_C3_Project" />
         <module name="librarydemo" />
         <module name="srikar" />
       </profile>
