@@ -23,7 +23,7 @@ class RestaurantTest {
         restaurant.addToMenu("Sweet corn soup",119);
         restaurant.addToMenu("Vegetable lasagne", 269);
     }
-/*
+
     //>>>>>>>>>>>>>>>>>>>>>>>>>OPEN/CLOSED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     // PASSING TEST CASE FOR RESTAURANT OPEN SCENARIO
     @Test
@@ -65,7 +65,7 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-*/
+
     //Failing Test case for orderValue method//
     @Test
     public void select_item_from_list_should_return_order_value(){
